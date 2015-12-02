@@ -1,0 +1,36 @@
+
+
+
+nav ul li {
+  display: inline;
+  text-align: center;
+}
+
+.pictures {
+  width: 46.15%;
+}
+
+.pictures2 {
+  width: 7.7%;
+}
+
+article:last-child {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 500px) {
+
+nav ul li {
+  display: block;
+  text-align: left;
+}
+
+  .pictures {
+    width: 100%;
+  }
+
+  .pictures2 {
+    width: 100%;
+  }
+}

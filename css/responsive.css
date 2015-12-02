@@ -1,0 +1,39 @@
+/* line 4, ../scss/responsive.scss */
+nav ul li {
+  display: inline;
+  text-align: center;
+}
+
+/* line 9, ../scss/responsive.scss */
+.pictures {
+  width: 46.15%;
+}
+
+/* line 13, ../scss/responsive.scss */
+.pictures2 {
+  width: 7.7%;
+}
+
+/* line 17, ../scss/responsive.scss */
+article:last-child {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  /* line 24, ../scss/responsive.scss */
+  nav ul li {
+    display: block;
+    text-align: left;
+  }
+
+  /* line 29, ../scss/responsive.scss */
+  .pictures {
+    width: 100%;
+  }
+
+  /* line 33, ../scss/responsive.scss */
+  .pictures2 {
+    width: 100%;
+  }
+}
